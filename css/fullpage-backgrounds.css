@@ -1,0 +1,28 @@
+#fullpage-1 {
+	background: url(http://markiv.mp.test-devs.com/sites/default/files/bg-image/section-01-bg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#fullpage-2 {
+	background: url(http://markiv.mp.test-devs.com/sites/default/files/bg-image/section-02-bg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#fullpage-3 {
+	background: url(http://markiv.mp.test-devs.com/sites/default/files/bg-image/section-03-bg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#fullpage-about {
+	background: url(http://markiv.mp.test-devs.com/sites/default/files/user-uploads/section-hero-02/bgimg/about-hero-bg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

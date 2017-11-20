@@ -1,0 +1,442 @@
+a:link {
+	text-decoration: none;
+}
+.container-fluid {
+	padding: 0;
+}
+.container {
+	padding: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+	height: 88px;
+	background: #fff;
+	border: 0;
+	min-width: 450px;
+}
+.navbar-header {
+	width: 100%;
+}
+.navbar-brand {
+	padding: 0;
+	padding-left: 5px;
+}
+.navbar-button {
+	font-size: 26pt;
+	color: #afbb21;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.navbar-button:hover {
+	color: #afbb21;
+}
+.navbar-button:visited {
+	color: #afbb21;
+}
+
+.overlay-menu {
+	width: 100vw;
+	height: 100vh;
+	background: rgba(175,187,33, 0.95);
+	z-index: 1031;
+	position: fixed;
+	display: none;
+}
+.overlay-button {
+	color: #fff;
+	position: absolute;
+	right: 10vw;
+	font-size: 24pt;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.overlay-button:hover {
+	color: rgba(255,255,255, 0.6);
+	transition-duration: .3s;
+}
+.overlay-menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 30vh;
+}
+.overlay-menu ul a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 80pt;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+	transition-duration: .2s
+}
+.overlay-menu ul a:hover {
+	color: rgba(255,255,255, 0.5);
+	transition-duration: .2s
+}
+@media screen and (max-width: 768px) {
+	.overlay-menu ul a {
+		font-size: 40pt;
+	}
+}
+
+.fullpage-jumbotron {
+	margin: 0;
+	margin-top: -50px;
+	padding: 0;
+	height: calc(100vh - 50px);
+	color: #fff;
+}
+.fullpage-jumbotron.first-child {
+	margin-top: 50px;
+}
+.fullpage-jumbotron h1 {
+	margin-top: 35vh;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.fullpage-jumbotron p {
+    font-family: 'Source Sans Pro Light', sans-serif;
+    font-size: 20pt;
+}
+@media screen and (max-width: 768px) {
+	.fullpage-jumbotron p {
+		font-size: 12pt;
+	}
+}
+
+.content-field {
+	padding: 60px 0;
+}
+.content-field h2 {
+	text-transform: uppercase;
+	font-size: 17pt;
+	font-weight: 900;
+	color: #afbb21;
+}
+.content-field h3 {
+	font-size: 37pt;
+	color: #484848;
+	font-family: 'Source Sans Pro Light', sans-serif;
+}
+.content-field p {
+	font-size: 22pt;
+	margin-top: 40px;
+	color: #484848;
+	font-family: 'Source Sans Pro Light', sans-serif;
+}
+.content-field p.link-label {
+	margin: 0;
+}
+.content-field a, .content-field a:visited {
+	color: #afbb21;
+	font-size: 22pt;
+	font-family: 'Source Sans Pro Light', sans-serif;
+	transition-duration: .4s;
+	padding-top: 0;
+}
+.content-field a:hover {
+	color: #697013;
+	text-decoration: underline;
+	transition-duration: .4s;
+}
+@media screen and (max-width: 768px) {
+	.content-field h3 {
+		font-size: 22pt;
+	}
+	.content-field p {
+		font-size: 12pt;
+	}
+	.content-field h2 {
+		font-size: 13pt;
+	}
+}
+
+.gallery {
+	margin-top: 100px;
+}
+.gallery > div > div{
+	padding: 3px 3px;
+}
+.gallery .element {
+	height: 25em;
+	width: 100%;
+}
+.gallery .element img{
+	height: 100%;
+	width: 100%;
+}
+.gallery .element h2{
+	font-family: 'Source Sans Pro Black', sans-serif;
+	letter-spacing: 1.5pt;
+	position: absolute;
+	bottom: 1.75em;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 28pt;
+}
+
+.service-icon {
+	width: 60px;
+	height: 60px;
+	left: calc(50% - 30px);
+	top: 30%;
+	position: absolute;
+	font-size: 25pt;
+	background-color: #afbb21;
+	border-radius: 100px;
+	text-align: center;
+	padding-top: 8px;
+	color: #fff;
+}
+
+div.partners-icons {
+	margin: 100px 0;
+}
+div.partners-icons .logo > img{
+	max-width: 200px;
+	max-height: 200px
+}
+div.partners-icons .logo{
+	padding: 40px;
+}
+
+div.homepage-contact-forms {
+	background: #afbb21;
+	color: #fff;
+	width: 100%;
+	padding: 100px 0;
+	font-family: 'Source Sans Pro Light', sans-serif;
+}
+div.homepage-contact-forms h2, .subpage-contact-forms h2 {
+	font-size: 35pt;
+	margin-bottom: 50px;
+}
+div.homepage-contact-forms h3, .subpage-contact-forms h3 {
+	font-size: 25pt;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+div.homepage-contact-forms label, .subpage-contact-forms label {
+	font-family: 'Source Sans Pro Extra-Light', sans-serif;
+	font-weight: 500;
+}
+div.homepage-contact-forms input, .subpage-contact-forms input {
+	max-width: 550px;
+	height: 42px;
+	border: none;
+	margin: 10px auto 20px;
+}
+div.homepage-contact-forms input:focus {
+	box-shadow: 0 0 5px #fff;
+}
+div.homepage-contact-forms textarea, .subpage-contact-forms textarea {
+	resize: vertical;
+	max-width: 550px;
+	border: none;
+	margin: 0 auto;
+}
+div.homepage-contact-forms textarea:focus {
+	box-shadow: 0 0 5px #fff;
+}
+div.homepage-contact-forms button, .subpage-contact-forms button {
+	border: 0;
+	width: 120px;
+	height: 50px;
+	color: #afbb21;
+	font-family: 'Source Sans Pro Bold', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	transition-duration: 0.3s;
+}
+div.homepage-contact-forms button:hover {
+	transition-duration: 0.3s;
+	background: #cfd679;
+	color: #afbb21;
+}
+
+.footer {
+	background: #333;
+	color: #fff;
+}
+.footer h3, .footer .logo {
+	margin-top: 60px;
+}
+.footer h3 {
+	font-family: 'Source Sans Pro Bold', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0;
+}
+.footer img {
+	width: 150px;
+}
+.footer ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 50px;
+	font-family: 'Source Sans Pro Light', sans-serif;
+	color: #ededed;
+	font-size: 11pt;
+}
+.footer p {
+	color: #999999;
+}
+.footer ul.address {
+	margin-top: 100px;
+}
+.footer .social {
+	margin-top: 30px;
+}
+.footer .social > a {
+	color: #fff;
+	font-size: 20pt;
+	transition-duration: 0.3s;
+}
+.footer .social > a:hover {
+	color: #afbb21;
+	transition-duration: 0.3s;
+}
+.footer .social > a:nth-child(2) {
+	margin-left: 20px;
+}
+.footer .copyright {
+	margin-top: 150px;
+}
+
+/* ------- About ------- */
+
+#team {
+	padding: 0;
+}
+.team-gallery img {
+	height: 100%;
+}
+.team-gallery {
+	margin-top: 100px;
+}
+.team-gallery .row {
+	padding: 5px 0;
+}
+.team-gallery .team-member {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.team-gallery .overlay {
+	position: absolute;
+	bottom: 0;
+	width: calc(100% - 10px);
+	max-width: 400px;
+	height: 100%;
+	background: rgba(175,187,33, 0.8);
+}
+
+.team-gallery .overlay p{
+	position: absolute;
+	color: #fff;
+
+	font-size: 18pt;
+	width: 100%;
+}
+.team-gallery .overlay p.name{
+	bottom: 60px;
+	width: 100%;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.team-gallery .overlay p.title{
+	bottom: 35px;
+	font-size: 14pt;
+	font-family: "Source Sans Pro Light";
+}
+
+/* ------- Services ------- */
+
+.services-list {
+	margin-top: 100px;
+}
+.services-list .service {
+	margin-bottom: 50px;
+}
+.services-list .service img {
+	width: 100%;
+	height: 100%;
+	max-width: 250px;
+	max-height: 250px;
+
+	margin: 0 auto;
+}
+.services-list .service-icon {
+	top: calc(50% - 30px);
+}
+.services-list h3.title {
+	font-family: "Source Sans Pro Bold", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 25pt;
+	color: #484848;
+}
+.services-list p.description {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-weight: 500;
+	font-size: 17pt;
+	color: #484848;
+}
+@media screen and (max-width: 768px) {
+	.services-list p.description {
+		font-size: 13pt;
+	}
+	.services-list h3.title {
+		font-size: 17pt;
+	}
+}
+
+/* ----- Contact ----- */
+
+.testimonials-slider {
+	width: 100%;
+	height: 500px;
+	background: url(http://markiv.mp.test-devs.com/sites/all/themes/markiv/img/testimonial-bg.jpg) center center;
+	padding: 0;
+	margin: 0;
+}
+.testimonials-slider .left-arrow, .testimonials-slider .right-arrow  {
+	color: rgba(255,255,255, 0.8);
+	font-size: 50pt;
+	margin-top: 200px;
+	cursor: pointer;
+}
+
+.testimonials-slider .testimonial  {
+    text-align: center;
+	color: rgba(255,255,255, 0.8);
+    margin-top: 100px;
+
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-size: 25pt;
+}
+
+.testimonials-slider .testimonial small  {
+	color: rgba(255,255,255, 0.7);
+	font-size: 20pt;
+}
+
+.no-background {
+	background: #fff;
+}
+
+.subpage-contact-forms h2 {
+	font-family: "Source Sans Pro Light", sans-serif;
+	font-weight: 200;
+
+	margin-top: 100px;
+	box-shadow: none;
+	border: 0;
+}
+.subpage-contact-forms input {
+	background: #eee;
+}
